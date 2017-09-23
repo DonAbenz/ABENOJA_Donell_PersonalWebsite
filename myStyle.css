@@ -1,0 +1,10 @@
+body {
+    background-image: url("BrickBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 1350px;
+}
+#name {
+    font-size: 120px;
+    color: white;
+    margin-left: 650px;
+}
