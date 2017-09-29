@@ -8,17 +8,25 @@ body {
     margin: 0 auto;
 }
 .header{
+    background: black;
     width: 100%;
     position: fixed;
     z-index: 1;
 }
 .logo{
     float: left;
+    font-family: 'Lucida Sans';
     font-size: 15px;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 li {
+    list-style: none;
     float: left;
-    margin-left: 15px;
+    font-family: sans-serif;
+    margin-left: 40px;
     padding-top: 15px;
 }
 .nav{
@@ -26,7 +34,7 @@ li {
 }
 /* BODY */
 #sec1 {
-    height: 600px;
+    height: 650px;
     width: 100%;
     background-image: url("homeBG.jpeg");
     background-size: contain;
@@ -34,7 +42,7 @@ li {
     position: relative;
 }
 .sec1Overlay{
-    height: 600px;
+    height: 650px;
     width: 100%;
     position: absolute;
     background-color: rgba(0,0,0,0.7);
