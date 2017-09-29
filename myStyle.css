@@ -11,6 +11,12 @@ body {
     background-size: cover;
     position: relative;
 }
+.sec1Overlay{
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+}
 #sec2{
     height: 700px;
     width: 100%;
