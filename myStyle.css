@@ -4,7 +4,11 @@ body {
 }
 
 #sec1 {
-    height: 600px;
+    height: 700px;
     width: 100%;
-    background: gray;
+    background-image: url("homeBG.jpeg");
+}
+#sec2{
+    height: 700px;
+    width: 100%;
 }
