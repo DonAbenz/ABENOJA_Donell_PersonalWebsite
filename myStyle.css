@@ -4,7 +4,7 @@ body {
 }
 
 #sec1 {
-    height: 700px;
+    height: 600px;
     width: 100%;
     background-image: url("homeBG.jpeg");
     background-size: contain;
@@ -12,7 +12,7 @@ body {
     position: relative;
 }
 .sec1Overlay{
-    height: 700px;
+    height: 600px;
     width: 100%;
     position: absolute;
     background-color: rgba(0,0,0,0.7);
@@ -20,4 +20,25 @@ body {
 #sec2{
     height: 700px;
     width: 100%;
+    position: relative;
+}
+#sec2:before {
+    content: '';
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    top: -48px;
+    left: 0;
+    background: white;
+    transform: skewY(8deg);
+}
+#sec2:after {
+    content: '';
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    top: -48px;
+    right: 0;
+    background: white;
+    transform: skewY(-8deg);
 }
