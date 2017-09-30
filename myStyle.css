@@ -76,7 +76,9 @@ li {
 #sec3 {
     height: 700px;
     width: 100%;
-    background: black;
+    background-image: url("a62cf583cf49f1bf1bf1a963bc747a64.png");
+    background-size: contain;
+    background-size: cover;
     position: relative;
 }
 #sec4 {
