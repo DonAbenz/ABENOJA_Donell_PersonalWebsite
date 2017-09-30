@@ -73,4 +73,15 @@ li {
     background: white;
     transform: skewY(-8deg);
 }
+#sec3 {
+    height: 700px;
+    width: 100%;
+    background: black;
+    position: relative;
+}
+#sec4 {
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
 
