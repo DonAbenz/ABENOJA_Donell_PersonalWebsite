@@ -15,7 +15,7 @@ body {
 }
 .logo{
     float: left;
-    font-family: 'Lucida Sans';
+    font-family: monospace;
     font-size: 15px;
 }
 a{
@@ -29,6 +29,15 @@ li {
     font-family: sans-serif;
     margin-left: 40px;
     padding-top: 15px;
+    transition: .5s;
+}
+ul:hover li{
+    opacity:.2;
+    filter: blur(1px);
+}
+ul li:hover{
+    opacity:10;
+    filter: blur(0px);
 }
 .nav{
     float: right;
@@ -134,7 +143,7 @@ li {
 #sec5:before {
     content: '';
     position: absolute;
-    border-bottom: 200px solid white;
+    border-bottom: 200px solid #FFFFFF;
     border-left: 98.8vw solid transparent;
     bottom: 0px;
 }
