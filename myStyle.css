@@ -40,6 +40,7 @@ li {
     background-image: url("homeBG.jpeg");
     background-size: contain;
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
 }
 .sec1Overlay{
@@ -79,6 +80,7 @@ li {
     background-image: url("a62cf583cf49f1bf1bf1a963bc747a64.png");
     background-size: contain;
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
 }
 #sec3:before {
@@ -126,6 +128,7 @@ li {
     background-image: url("pen_ink_pens_113134_1366x768.png");
     background-size: contain;
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
 }
 #sec6 {
