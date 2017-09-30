@@ -81,12 +81,6 @@ li {
     background-size: cover;
     position: relative;
 }
-.sec3Overlay {
-    height: 700px;
-    width: 100%;
-    position: absolute;
-    background-color: rgba(0,0,0,0.6);
-}
 #sec4 {
     height: 700px;
     width: 100%;
@@ -95,7 +89,9 @@ li {
 #sec5 {
     height: 700px;
     width: 100%;
-    background: black;
+    background-image: url("pen_ink_pens_113134_1366x768.png");
+    background-size: contain;
+    background-size: cover;
     position: relative;
 }
 #sec6 {
