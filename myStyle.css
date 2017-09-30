@@ -131,6 +131,20 @@ li {
     background-attachment: fixed;
     position: relative;
 }
+#sec5:before {
+    content: '';
+    position: absolute;
+    border-bottom: 200px solid white;
+    border-left: 98.8vw solid transparent;
+    bottom: 0px;
+}
+#sec5:after {
+    content: '';
+    position: absolute;
+    border-top: 200px solid white;
+    border-right: 98.8vw solid transparent;
+    top: 0px;
+}
 #sec6 {
     height: 700px;
     width: 100%;
