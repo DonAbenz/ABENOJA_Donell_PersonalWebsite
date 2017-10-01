@@ -57,3 +57,12 @@
 	border-radius: 50%;
 	border: 2px solid #cecece;
 }
+.inner{
+	position: absolute;
+	top: 32px;
+	left: 45%;
+	width: 40px;
+	height: 4px;
+	background: #262626;
+	border-radius: 2px;
+}
