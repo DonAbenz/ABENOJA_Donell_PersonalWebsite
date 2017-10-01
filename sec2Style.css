@@ -66,3 +66,30 @@
 	background: #262626;
 	border-radius: 2px;
 }
+.inner:before{
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -22px;
+	background: #262626;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+}
+.volume{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 90px;
+	left: -5px;
+}
+.volume li{
+	list-style: none;
+	width: 2px;
+	height: 20px;
+	background: #ccc;
+	margin: 5px 0;
+	border: 2px solid #cecece;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
