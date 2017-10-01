@@ -58,31 +58,6 @@ ul li:hover{
     position: absolute;
     background-color: rgba(0,0,0,0.7);
 }
-#sec2{
-    height: 700px;
-    width: 100%;
-    position: relative;
-}
-#sec2:before {
-    content: '';
-    width: 50%;
-    height: 100px;
-    position: absolute;
-    top: -48px;
-    left: 0;
-    background: white;
-    transform: skewY(8deg);
-}
-#sec2:after {
-    content: '';
-    width: 50%;
-    height: 100px;
-    position: absolute;
-    top: -48px;
-    right: 0;
-    background: white;
-    transform: skewY(-8deg);
-}
 #sec3 {
     height: 700px;
     width: 100%;
