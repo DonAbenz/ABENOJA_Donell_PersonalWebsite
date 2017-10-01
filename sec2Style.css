@@ -36,3 +36,13 @@
 	box-sizing: border-box;
 	box-shadow: inset 0 0 8px rgba(0,0,0,.3);
 }
+.screen{
+	position: relative;
+	background-image: url("aloha.jpg");
+	background-size: contain;
+    background-size: cover;
+    background-position: center;
+	width: 256px;
+	height: 455px;
+	margin: 58px auto;
+}
