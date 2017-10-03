@@ -105,7 +105,7 @@ a{
 }
 
 #sec5 {
-    height: 400px;
+    height: 600px;
     width: 100%;
     background-image: url("pen_ink_pens_113134_1366x768.png");
     background-size: contain;
@@ -120,5 +120,19 @@ a{
     position: relative;
     color: white;
     top: 45%;
+}
+#sec5:before {
+    content: '';
+    position: absolute;
+    border-bottom: 200px solid white;
+    border-left: 98.8vw solid transparent;
+    bottom: 0px;
+}
+#sec5:after {
+    content: '';
+    position: absolute;
+    border-top: 200px solid white;
+    border-right: 98.8vw solid transparent;
+    top: 0px;
 }
 
