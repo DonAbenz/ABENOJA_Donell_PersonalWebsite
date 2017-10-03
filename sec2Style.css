@@ -5,10 +5,14 @@
     position: relative;
 }
 .sec2Content{
+	padding-top: 100px;
 	position: relative;
+	font-family: 'Times New Roman', Times, serif;
+	line-height: 40px;
 	float: right;
 	right: 50px;
 }
+
 .mobile{
 	position: absolute;
 	float: left;
