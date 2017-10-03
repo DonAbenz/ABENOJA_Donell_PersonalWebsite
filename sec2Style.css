@@ -4,26 +4,6 @@
     padding-top: 150px;
     position: relative;
 }
-#sec2:before {
-    content: '';
-    width: 50%;
-    height: 100px;
-    position: absolute;
-    top: -48px;
-    left: 0;
-    background: white;
-    transform: skewY(8deg);
-}
-#sec2:after {
-    content: '';
-    width: 50%;
-    height: 100px;
-    position: absolute;
-    top: -48px;
-    right: 0;
-    background: white;
-    transform: skewY(-8deg);
-}
 
 .mobile{
 	position: absolute;
