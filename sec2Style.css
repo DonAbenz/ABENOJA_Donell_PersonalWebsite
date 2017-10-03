@@ -4,10 +4,15 @@
     padding-top: 150px;
     position: relative;
 }
-
+.sec2Content{
+	position: relative;
+	float: right;
+	right: 50px;
+}
 .mobile{
 	position: absolute;
-	left: 175px;
+	float: left;
+	left: 275px;
 	width: 276px;
 	height: 580px;
 	background: white;
