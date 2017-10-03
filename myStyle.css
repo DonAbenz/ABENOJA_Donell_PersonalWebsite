@@ -59,7 +59,7 @@ a{
     background-color: rgba(0,0,0,0.7);
 }
 #sec3 {
-    height: 400px;
+    height: 600px;
     width: 100%;
     background-image: url("a62cf583cf49f1bf1bf1a963bc747a64.png");
     background-size: contain;
@@ -68,11 +68,40 @@ a{
     position: relative;
 }
 
+#sec3:before {
+    content: '';
+    position: absolute;
+    border-bottom: 200px solid white;
+    border-right: 98.8vw solid transparent;
+    bottom: -0px;
+}
+#sec3:after {
+    content: '';
+    position: absolute;
+    border-top: 200px solid white;
+    border-left: 98.8vw solid transparent;
+    top: -0px;
+}
+
 .sec3Overlay {
-    height: 400px;
+    height: 600px;
     width: 100%;
     position: absolute;
     background-color: rgba(0,0,0,0.6);
+}
+.sec3Overlay:before {
+    content: '';
+    position: absolute;
+    border-bottom: 200px solid white;
+    border-right: 98.8vw solid transparent;
+    bottom: -0px;
+}
+.sec3Overlay:after {
+    content: '';
+    position: absolute;
+    border-top: 200px solid white;
+    border-left: 98.8vw solid transparent;
+    top: -0px;
 }
 
 #sec5 {
