@@ -1,12 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 /* HEADER */
-.container{
-    width: 1000px;
-    margin: 0 auto ;
-}
 .header{
     background: black;
     width: 100%;
@@ -136,3 +133,21 @@ a{
     top: 0px;
 }
 
+.container{
+    width: 1000px;
+    margin: 0 auto ;
+    text-align: left;
+    color: #726C6C;
+    font-family: arial;
+}
+.container.center{
+    text-align: center;
+}
+.container h2{
+    color: black;
+    font-family: Verdana;
+    padding-top: 10px;
+}
+.container h4{
+    color:yellowgreen;
+}
