@@ -151,3 +151,10 @@ a{
 .container h4{
     color:yellowgreen;
 }
+
+#footer{
+    position: relative;
+    text-align: center;
+    font-family: arial;
+    bottom: 10px;
+}

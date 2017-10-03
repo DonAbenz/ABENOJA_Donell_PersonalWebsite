@@ -5,10 +5,9 @@
     position: relative;
 }
 .sec2Content{
-	padding-top: 100px;
 	position: relative;
 	font-family: 'Times New Roman', Times, serif;
-	line-height: 40px;
+	line-height: 35px;
 	float: right;
 	right: 50px;
 }
