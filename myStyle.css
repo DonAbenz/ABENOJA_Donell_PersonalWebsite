@@ -158,3 +158,34 @@ a{
     font-family: arial;
     bottom: 10px;
 }
+
+.center{
+    position: absolute;
+    top: 70%;
+    left: 41%;
+}
+.center a{
+    font-family: arial;
+    color: #262626;
+    background: #fff900;
+    padding: 10px 0px 10px 25px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 2px;
+    transition: .2s;
+}
+.center a:after{
+    content: '\f107';
+    font-family: fontAwesome;
+    left: -20px;
+    opacity: 0;
+    transition: .2s;
+}
+.center a:hover:after{
+    left: 20px;
+    opacity: 1;
+}
+.center a:hover{
+    padding: 10px 15px 10px 25px;
+}
