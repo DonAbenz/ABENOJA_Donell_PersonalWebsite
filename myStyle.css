@@ -159,12 +159,12 @@ a{
     bottom: 10px;
 }
 
-.center{
+.bttn{
     position: absolute;
     top: 70%;
     left: 41%;
 }
-.center a{
+.bttn a{
     font-family: arial;
     color: #262626;
     background: #fff900;
@@ -175,17 +175,17 @@ a{
     border-radius: 2px;
     transition: .2s;
 }
-.center a:after{
+.bttn a:after{
     content: '\f107';
     font-family: fontAwesome;
     left: -20px;
     opacity: 0;
     transition: .2s;
 }
-.center a:hover:after{
+.bttn a:hover:after{
     left: 20px;
     opacity: 1;
 }
-.center a:hover{
+.bttn a:hover{
     padding: 10px 15px 10px 25px;
 }
